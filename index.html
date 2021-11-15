@@ -8,10 +8,43 @@
     integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
-    <title>My Project</title>
+    <title>Rotating Navigation</title>
 </head>
 <body>
-    <h1>Project Starter</h1>
+    <div class="container">
+        <div class="circle-container">
+            <div class="circle">
+                <button id="close">
+                    <i class="fas fa-times"></i>
+                </button>
+                <button id="open">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        <div class="content">
+            <h1>Why commuting by bike is good for the soul</h1>
+            <small class="author">By Nick Kirk</small>
+            
+            <img class="hero" src="https://images.unsplash.com/photo-1561113500-8f4ad4f80a93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" 
+            alt="Bike commuters">
+            <small class="author">
+                Bike Commuters Copenhagen, 
+                <a href="https://unsplash.com/photos/-hwDGRQzAeM">Febiyan, 2019</a>
+            </small>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores eveniet 
+                laborum nulla nam deleniti possimus veritatis, provident vitae mollitia 
+                temporibus ut perspiciatis enim doloribus accusamus repudiandae laudantium magnam eius sit.
+            </p>
+        </div>
+    </div>
+    <nav>
+        <ul>
+            <li><i class="fas fa-home"></i> Home</li>
+            <li><i class="fas fa-user-alt"></i> About</li>
+            <li><i class="fas fa-envelope"></i> Contact</li>
+        </ul>
+    </nav>
 
     <script src="script.js"></script>
     
